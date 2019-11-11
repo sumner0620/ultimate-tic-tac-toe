@@ -1,5 +1,6 @@
 import React from 'react';
 import { Board } from './Board';
+
 export class BoardGrid extends React.Component {
   constructor(props) {
     super(props);
@@ -35,3 +36,4 @@ export class BoardGrid extends React.Component {
     </div>);
   }
 }
+// send to Game (index.js)

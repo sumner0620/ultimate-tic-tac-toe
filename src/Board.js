@@ -1,6 +1,7 @@
 import React from 'react';
 import { Square } from './Square';
 import { calculateBoardWinner } from './calculateBoardWinner';
+
 export class Board extends React.Component {
   constructor(props) {
     super(props);
@@ -55,3 +56,4 @@ export class Board extends React.Component {
     </div>);
   }
 }
+// send to BoardGrid
